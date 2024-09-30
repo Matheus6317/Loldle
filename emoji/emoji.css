@@ -1,0 +1,118 @@
+body{
+    background-image: url("../imgs/league-of-legends.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.logo{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a1{
+    border: 5px solid;
+    font-size: 45px;
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+    background-color: black;
+    border-color: yellow;
+    color: yellow;
+}
+.a2{
+    color: yellow;
+    background-color: black;
+    border: 5px solid;
+    font-size: 45px;
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+}
+.a3{
+    background-color: black;
+    border: 5px solid;
+    font-size: 45px;
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+    color: yellow;
+}
+.a4{
+    background-color: black;
+    border: 5px solid;
+    font-size: 45px;
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+    color: yellow;
+}
+.a5{
+    border: 5px solid;
+    font-size: 45px;
+    border-radius: 100px;
+    width: 60px;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+.box{
+    border: 2px solid;
+    width: 400px;
+    border-color: yellow;
+    background-color: rgb(1, 1, 49);
+    color: white;
+    text-align: center;
+    transform: translate(720px, 0px);
+
+}
+.comment01{
+    font-size: 24px;
+}
+.emoji{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+}
+.comment02{
+    color: rgba(255, 255, 255, 0.589);
+}
+.default{
+    display: flex;
+    justify-content: center;
+}
+.inp{
+    height: 40px;
+    width: 250px;
+    background-color:rgb(1, 1, 49);
+    border-color:aqua ;
+    color: white;
+}
+
+.but{
+    font-size: 50px;
+    width: 60px;
+    height: 70px;
+    border-radius: 1000px;
+    transform: translate(0px, -10px);
+    background-color: hsl(0, 0%, 15%);
+    color: yellow;
+    border: 3px solid;
+    border-color: yellow;
+    cursor: pointer;
+}
